@@ -5,6 +5,8 @@
 --     customers;
 
 select distinct state from customers;
+select * from customer
+limit 5;
 
  
 
