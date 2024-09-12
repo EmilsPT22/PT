@@ -19,3 +19,10 @@
 -- select * from orders o
 -- right join customers c
 -- using(customer_id)
+
+
+
+use sql_store;
+select * from orders o
+right join products p
+ on p.product_id = o.order_id
